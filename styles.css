@@ -116,3 +116,95 @@
         color:rgb(0, 0, 0);
         background-color: rgb(255, 255, 255);
     }
+
+
+    @media only screen and (max-width: 425px) {
+      section {
+          width: 80vw;
+          height: 80vw;
+      }
+  
+      .top-div {
+          padding: 1rem;
+          font-size: 1.5rem;
+
+      }
+  
+      .author-box {
+          padding: 1rem;
+          font-size: 1rem;
+      }
+  
+      .bottom-tweet {
+          margin-left: 0;
+      }
+  
+      .new-quote {
+          width: 5rem;
+          font-size: 0.6rem;
+      }
+  }
+
+  @media only screen and (min-width:425px) and (max-width:768px) {
+    section{
+      width:70vmin;
+      height: 70vmin;
+    }
+
+    .top-div{
+      font-size:1.5rem;
+    }
+
+  }
+
+  @media only screen and (min-width:768px) and (max-width:1024px) {
+    section{
+      width:50vmin;
+      height: 50vmin;
+    }
+
+    .top-div{
+      font-size:1.5rem;
+    }
+
+  }
+
+  @media only screen and (min-width:1024px) and (max-width:1440px) {
+    section{
+      width:45vmin;
+      height: 45vmin;
+    }
+
+    .top-div{
+      font-size:1.75rem;
+    }
+
+  }
+
+
+  @media only screen and (min-width:1440px) {
+    section{
+      width:40vmin;
+      height: 40vmin;
+    }
+
+    .top-div{
+      font-size:2.5rem;
+    }
+
+    .author-box{
+      font-size:1.5rem;
+    }
+
+    .new-quote{
+      width:8rem;
+      font-size:1rem;
+    }
+
+    .tweet-twitter{
+      width:4rem;
+      height:2.5rem;
+      font-size:1rem;
+    }
+
+  }
